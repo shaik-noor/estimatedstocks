@@ -1,0 +1,26 @@
+/* HeroSection.css */
+@keyframes animation-scaled {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* HeroSection.css */
+.animation-scaled {
+    animation-name: animation-scaled;
+    animation-duration: 15s; /* Set the duration as needed */
+    animation-timing-function: ease-in-out; /* Set the timing function as needed */
+    animation-iteration-count: infinite; /* Set the iteration count as needed */
+}
+
+.hero-image-container {
+    width: 100%; /* Limit the width to 100% of its parent container */
+    max-height: 70vh; /* Limit the height to 70% of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
+  }
